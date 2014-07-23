@@ -27,6 +27,11 @@ class QuickSort:
 	@staticmethod
 	def quick(i, k):
 		"""
+		Find a pivot point and start sorting the list based on the pivot point
+
+		Args:
+			i,	int,	the left bound of the search list
+			k,	int,	the right bound of the search list
 
 		"""
 		if i < k:
@@ -37,16 +42,35 @@ class QuickSort:
 
 	@staticmethod
 	def partition(left, right):
-		pivot = (left+right) /2 #pick mid point as pivot
+		"""
+		Move all the elements less than the pivot to the left side of the pivot, and
+		move all the elements larger than the pivot to the right side of the pivot
+
+		Args:
+			left,	int,	the left bound of partitioning
+			right, 	int,	the right bound of the partitioning
+
+		Returns:
+			list,	the pivoted list based on the left and right bound
+
+		"""
+		pivot = (left+right) / 2 # pick mid point as pivot
 		pivot_value = QuickSort.list[pivot]
+
+		# Store the mid point value to the right bound of the list
 		QuickSort.list[pivot], QuickSort.list[right] = QuickSort.list[right], QuickSort.list[pivot]
 		stored_index = left
+		# Iterate from the left to the right of the list
 		for ii in range (left, right):
+			# If the left value is less than the pivot value, it will be placed on the left
+			# of the pivot
 			if QuickSort.list[ii] <= pivot_value:
 				QuickSort.list[stored_index], QuickSort.list[ii] = QuickSort.list[ii], QuickSort.list[stored_index]
-				stored_index = stored_index + 1
+				stored_index = stored_index + 1 
+
+		# After going through the whole list, put swap back the stored_index value with the pivot value
 		QuickSort.list[stored_index], QuickSort.list[right] = QuickSort.list[right], QuickSort.list[stored_index]
-		print QuickSort.list
+		
 		return stored_index
 
 if __name__ == '__main__':
