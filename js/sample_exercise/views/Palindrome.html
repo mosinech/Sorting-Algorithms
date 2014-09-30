@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.css" rel="stylesheet" />
+	<link rel="stylesheet" href="//code.jquery.com/qunit/qunit-1.14.0.css">
+
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js" ></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js" ></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js" ></script>
+	<script src="//code.jquery.com/qunit/qunit-1.14.0.js"></script>
+	<script src="palindrome.js"></script>
+
+	</head>
+
+	<body class="container-fluid" ng-app="palindromeApp" ng-controller="palindromeCtrl">
+		
+		<div class="col-lg-offset-2 col-lg-8 col-md-offset-1 col-md-10">
+
+			<h2>QUnit Test</h2>
+			<div id="qunit"></div>
+
+			<h2>Palindrome Detection</h2>
+			<div class="row">
+				<form class="col-sm-6" role="form">
+					<div class="form-group">
+						<label for="text">Please enter the string: </label>
+						<input type="text" class="form-control" ng-model="input.text" id="text"/> 
+					</div>
+					<div class="form-group">
+						<input type="submit" class="form-control btn btn-primary" value="Palindrome Detection" ng-click="palindrome()"/>
+					</div>
+				</form>
+			</div>
+			
+			<div ng-if="results.show">Result: "<span ng-bind="results.text"></span>" <span ng-hide="results.palindrome">does not</span> contain<span ng-show="results.palindrome">s</span> a palindrome.</div>
+
+		</div>
+
+	</body>
+
+</html>
+
+

@@ -1,0 +1,22 @@
+Key Count:
+
+'Jane,\n\n\n
+Jane,3\n
+John Jane, 4,\n
+ john Jane  ,,5,,,,\n
+Jane,5.98'
+
+'Jane
+JohnSSS, 4e20
+JohnSSS, 5
+Jane, 4e5
+Jane,5
+Peter, 400e-1'
+
+Palindrom:
+abcdabcdabcd
+aPop
+Ah, Satan sees Natasha
+a
+akcab#$ ad, abc
+t00k
