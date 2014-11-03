@@ -50,6 +50,7 @@ app.controller("palindromeCtrl", ['$scope', function($scope){
 		
 	});
 
+
 }]);
 
 

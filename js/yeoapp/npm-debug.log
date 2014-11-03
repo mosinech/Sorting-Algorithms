@@ -1,0 +1,245 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'generator-angular-bootstrap-less' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose cache add [ 'generator-angular-bootstrap-less', null ]
+5 verbose cache add name=undefined spec="generator-angular-bootstrap-less" args=["generator-angular-bootstrap-less",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'generator-angular-bootstrap-less',
+6 verbose parsed url   path: 'generator-angular-bootstrap-less',
+6 verbose parsed url   href: 'generator-angular-bootstrap-less' }
+7 silly lockFile 62ccf8b5-generator-angular-bootstrap-less generator-angular-bootstrap-less
+8 verbose lock generator-angular-bootstrap-less /Users/georgezhao/.npm/62ccf8b5-generator-angular-bootstrap-less.lock
+9 silly lockFile 62ccf8b5-generator-angular-bootstrap-less generator-angular-bootstrap-less
+10 silly lockFile 62ccf8b5-generator-angular-bootstrap-less generator-angular-bootstrap-less
+11 verbose addNamed [ 'generator-angular-bootstrap-less', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 472369c6-generator-angular-bootstrap-less generator-angular-bootstrap-less@
+14 verbose lock generator-angular-bootstrap-less@ /Users/georgezhao/.npm/472369c6-generator-angular-bootstrap-less.lock
+15 silly addNameRange { name: 'generator-angular-bootstrap-less',
+15 silly addNameRange   range: '*',
+15 silly addNameRange   hasData: false }
+16 verbose url raw generator-angular-bootstrap-less
+17 verbose url resolving [ 'https://registry.npmjs.org/',
+17 verbose url resolving   './generator-angular-bootstrap-less' ]
+18 verbose url resolved https://registry.npmjs.org/generator-angular-bootstrap-less
+19 info trying registry request attempt 1 at 15:31:31
+20 http GET https://registry.npmjs.org/generator-angular-bootstrap-less
+21 http 200 https://registry.npmjs.org/generator-angular-bootstrap-less
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Mon, 06 Oct 2014 22:31:31 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+22 silly registry.get     etag: '"3JZKW0JILR8RITWMG2FSCSXBI"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=60',
+22 silly registry.get     'content-length': '16039',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     'x-served-by': 'cache-lax1426-LAX',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1412634691.666530,VS0,VE150',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'generator-angular-bootstrap-less',
+23 silly addNameRange   range: '*',
+23 silly addNameRange   hasData: true }
+24 silly addNameRange versions [ 'generator-angular-bootstrap-less',
+24 silly addNameRange   [ '0.0.0', '0.1.0', '0.1.1', '1.0.0' ] ]
+25 verbose addNamed [ 'generator-angular-bootstrap-less', '1.0.0' ]
+26 verbose addNamed [ '1.0.0', '1.0.0' ]
+27 silly lockFile 0b962a30-tor-angular-bootstrap-less-1-0-0 generator-angular-bootstrap-less@1.0.0
+28 verbose lock generator-angular-bootstrap-less@1.0.0 /Users/georgezhao/.npm/0b962a30-tor-angular-bootstrap-less-1-0-0.lock
+29 silly lockFile ea3217dc-angular-bootstrap-less-1-0-0-tgz https://registry.npmjs.org/generator-angular-bootstrap-less/-/generator-angular-bootstrap-less-1.0.0.tgz
+30 verbose lock https://registry.npmjs.org/generator-angular-bootstrap-less/-/generator-angular-bootstrap-less-1.0.0.tgz /Users/georgezhao/.npm/ea3217dc-angular-bootstrap-less-1-0-0-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/generator-angular-bootstrap-less/-/generator-angular-bootstrap-less-1.0.0.tgz',
+31 verbose addRemoteTarball   '0fe543709582cbbb7581806a1de217e3c4f5832a' ]
+32 info retry fetch attempt 1 at 15:31:31
+33 verbose fetch to= /var/folders/g6/28vyzlz12yx216qxc9b7qpsw0000gp/T/npm-89115-L8C7QRQV/1412634691838-0.4520783079788089/tmp.tgz
+34 http GET https://registry.npmjs.org/generator-angular-bootstrap-less/-/generator-angular-bootstrap-less-1.0.0.tgz
+35 http 200 https://registry.npmjs.org/generator-angular-bootstrap-less/-/generator-angular-bootstrap-less-1.0.0.tgz
+36 verbose tar unpack /var/folders/g6/28vyzlz12yx216qxc9b7qpsw0000gp/T/npm-89115-L8C7QRQV/1412634691838-0.4520783079788089/tmp.tgz
+37 silly lockFile 0b8f04b7-91838-0-4520783079788089-package tar:///var/folders/g6/28vyzlz12yx216qxc9b7qpsw0000gp/T/npm-89115-L8C7QRQV/1412634691838-0.4520783079788089/package
+38 verbose lock tar:///var/folders/g6/28vyzlz12yx216qxc9b7qpsw0000gp/T/npm-89115-L8C7QRQV/1412634691838-0.4520783079788089/package /Users/georgezhao/.npm/0b8f04b7-91838-0-4520783079788089-package.lock
+39 silly lockFile 58dadef0-91838-0-4520783079788089-tmp-tgz tar:///var/folders/g6/28vyzlz12yx216qxc9b7qpsw0000gp/T/npm-89115-L8C7QRQV/1412634691838-0.4520783079788089/tmp.tgz
+40 verbose lock tar:///var/folders/g6/28vyzlz12yx216qxc9b7qpsw0000gp/T/npm-89115-L8C7QRQV/1412634691838-0.4520783079788089/tmp.tgz /Users/georgezhao/.npm/58dadef0-91838-0-4520783079788089-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+44 silly gunzTarPerm extractEntry .npmignore
+45 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+46 silly gunzTarPerm extractEntry README.md
+47 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+48 silly gunzTarPerm extractEntry LICENSE
+49 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+50 silly gunzTarPerm extractEntry .editorconfig
+51 silly gunzTarPerm modified mode [ '.editorconfig', 438, 420 ]
+52 silly gunzTarPerm extractEntry .gitattributes
+53 silly gunzTarPerm modified mode [ '.gitattributes', 438, 420 ]
+54 silly gunzTarPerm extractEntry .jshintrc
+55 silly gunzTarPerm modified mode [ '.jshintrc', 438, 420 ]
+56 silly gunzTarPerm extractEntry .travis.yml
+57 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+58 silly gunzTarPerm extractEntry app/index.js
+59 silly gunzTarPerm modified mode [ 'app/index.js', 438, 420 ]
+60 silly gunzTarPerm extractEntry app/templates/_Gruntfile.js
+61 silly gunzTarPerm modified mode [ 'app/templates/_Gruntfile.js', 438, 420 ]
+62 silly gunzTarPerm extractEntry app/templates/gitignore
+63 silly gunzTarPerm modified mode [ 'app/templates/gitignore', 438, 420 ]
+64 silly gunzTarPerm extractEntry app/templates/gitkeep
+65 silly gunzTarPerm modified mode [ 'app/templates/gitkeep', 438, 420 ]
+66 silly gunzTarPerm extractEntry app/templates/js/_app.js
+67 silly gunzTarPerm modified mode [ 'app/templates/js/_app.js', 438, 420 ]
+68 silly gunzTarPerm extractEntry app/templates/js/_controllers.js
+69 silly gunzTarPerm modified mode [ 'app/templates/js/_controllers.js', 438, 420 ]
+70 silly gunzTarPerm extractEntry app/templates/js/_directives.js
+71 silly gunzTarPerm modified mode [ 'app/templates/js/_directives.js', 438, 420 ]
+72 silly gunzTarPerm extractEntry app/templates/js/_filters.js
+73 silly gunzTarPerm modified mode [ 'app/templates/js/_filters.js', 438, 420 ]
+74 silly gunzTarPerm extractEntry app/templates/js/_services.js
+75 silly gunzTarPerm modified mode [ 'app/templates/js/_services.js', 438, 420 ]
+76 silly gunzTarPerm extractEntry app/templates/less/_bootstrap.less
+77 silly gunzTarPerm modified mode [ 'app/templates/less/_bootstrap.less', 438, 420 ]
+78 silly gunzTarPerm extractEntry app/templates/_bower.json
+79 silly gunzTarPerm modified mode [ 'app/templates/_bower.json', 438, 420 ]
+80 silly gunzTarPerm extractEntry app/templates/_package.json
+81 silly gunzTarPerm modified mode [ 'app/templates/_package.json', 438, 420 ]
+82 silly gunzTarPerm extractEntry test/test-creation.js
+83 silly gunzTarPerm modified mode [ 'test/test-creation.js', 438, 420 ]
+84 silly gunzTarPerm extractEntry test/test-load.js
+85 silly gunzTarPerm modified mode [ 'test/test-load.js', 438, 420 ]
+86 silly lockFile 0b8f04b7-91838-0-4520783079788089-package tar:///var/folders/g6/28vyzlz12yx216qxc9b7qpsw0000gp/T/npm-89115-L8C7QRQV/1412634691838-0.4520783079788089/package
+87 silly lockFile 0b8f04b7-91838-0-4520783079788089-package tar:///var/folders/g6/28vyzlz12yx216qxc9b7qpsw0000gp/T/npm-89115-L8C7QRQV/1412634691838-0.4520783079788089/package
+88 silly lockFile 58dadef0-91838-0-4520783079788089-tmp-tgz tar:///var/folders/g6/28vyzlz12yx216qxc9b7qpsw0000gp/T/npm-89115-L8C7QRQV/1412634691838-0.4520783079788089/tmp.tgz
+89 silly lockFile 58dadef0-91838-0-4520783079788089-tmp-tgz tar:///var/folders/g6/28vyzlz12yx216qxc9b7qpsw0000gp/T/npm-89115-L8C7QRQV/1412634691838-0.4520783079788089/tmp.tgz
+90 verbose tar pack [ '/Users/georgezhao/.npm/generator-angular-bootstrap-less/1.0.0/package.tgz',
+90 verbose tar pack   '/var/folders/g6/28vyzlz12yx216qxc9b7qpsw0000gp/T/npm-89115-L8C7QRQV/1412634691838-0.4520783079788089/package' ]
+91 verbose tarball /Users/georgezhao/.npm/generator-angular-bootstrap-less/1.0.0/package.tgz
+92 verbose folder /var/folders/g6/28vyzlz12yx216qxc9b7qpsw0000gp/T/npm-89115-L8C7QRQV/1412634691838-0.4520783079788089/package
+93 silly lockFile 0b8f04b7-91838-0-4520783079788089-package tar:///var/folders/g6/28vyzlz12yx216qxc9b7qpsw0000gp/T/npm-89115-L8C7QRQV/1412634691838-0.4520783079788089/package
+94 verbose lock tar:///var/folders/g6/28vyzlz12yx216qxc9b7qpsw0000gp/T/npm-89115-L8C7QRQV/1412634691838-0.4520783079788089/package /Users/georgezhao/.npm/0b8f04b7-91838-0-4520783079788089-package.lock
+95 silly lockFile 98ec68b1-bootstrap-less-1-0-0-package-tgz tar:///Users/georgezhao/.npm/generator-angular-bootstrap-less/1.0.0/package.tgz
+96 verbose lock tar:///Users/georgezhao/.npm/generator-angular-bootstrap-less/1.0.0/package.tgz /Users/georgezhao/.npm/98ec68b1-bootstrap-less-1-0-0-package-tgz.lock
+97 silly lockFile 0b8f04b7-91838-0-4520783079788089-package tar:///var/folders/g6/28vyzlz12yx216qxc9b7qpsw0000gp/T/npm-89115-L8C7QRQV/1412634691838-0.4520783079788089/package
+98 silly lockFile 0b8f04b7-91838-0-4520783079788089-package tar:///var/folders/g6/28vyzlz12yx216qxc9b7qpsw0000gp/T/npm-89115-L8C7QRQV/1412634691838-0.4520783079788089/package
+99 silly lockFile 98ec68b1-bootstrap-less-1-0-0-package-tgz tar:///Users/georgezhao/.npm/generator-angular-bootstrap-less/1.0.0/package.tgz
+100 silly lockFile 98ec68b1-bootstrap-less-1-0-0-package-tgz tar:///Users/georgezhao/.npm/generator-angular-bootstrap-less/1.0.0/package.tgz
+101 silly lockFile e8c1e20c-lar-bootstrap-less-1-0-0-package /Users/georgezhao/.npm/generator-angular-bootstrap-less/1.0.0/package
+102 verbose lock /Users/georgezhao/.npm/generator-angular-bootstrap-less/1.0.0/package /Users/georgezhao/.npm/e8c1e20c-lar-bootstrap-less-1-0-0-package.lock
+103 silly lockFile e8c1e20c-lar-bootstrap-less-1-0-0-package /Users/georgezhao/.npm/generator-angular-bootstrap-less/1.0.0/package
+104 silly lockFile e8c1e20c-lar-bootstrap-less-1-0-0-package /Users/georgezhao/.npm/generator-angular-bootstrap-less/1.0.0/package
+105 verbose tar unpack /Users/georgezhao/.npm/generator-angular-bootstrap-less/1.0.0/package.tgz
+106 silly lockFile 7f85f1e3-lar-bootstrap-less-1-0-0-package tar:///Users/georgezhao/.npm/generator-angular-bootstrap-less/1.0.0/package
+107 verbose lock tar:///Users/georgezhao/.npm/generator-angular-bootstrap-less/1.0.0/package /Users/georgezhao/.npm/7f85f1e3-lar-bootstrap-less-1-0-0-package.lock
+108 silly lockFile 98ec68b1-bootstrap-less-1-0-0-package-tgz tar:///Users/georgezhao/.npm/generator-angular-bootstrap-less/1.0.0/package.tgz
+109 verbose lock tar:///Users/georgezhao/.npm/generator-angular-bootstrap-less/1.0.0/package.tgz /Users/georgezhao/.npm/98ec68b1-bootstrap-less-1-0-0-package-tgz.lock
+110 silly gunzTarPerm modes [ '755', '644' ]
+111 silly gunzTarPerm extractEntry package.json
+112 silly gunzTarPerm extractEntry .npmignore
+113 silly gunzTarPerm extractEntry README.md
+114 silly gunzTarPerm extractEntry LICENSE
+115 silly gunzTarPerm extractEntry .editorconfig
+116 silly gunzTarPerm extractEntry .gitattributes
+117 silly gunzTarPerm extractEntry .jshintrc
+118 silly gunzTarPerm extractEntry .travis.yml
+119 silly gunzTarPerm extractEntry app/index.js
+120 silly gunzTarPerm extractEntry app/templates/_Gruntfile.js
+121 silly gunzTarPerm extractEntry app/templates/_bower.json
+122 silly gunzTarPerm extractEntry app/templates/_package.json
+123 silly gunzTarPerm extractEntry app/templates/gitignore
+124 silly gunzTarPerm extractEntry app/templates/gitkeep
+125 silly gunzTarPerm extractEntry app/templates/js/_app.js
+126 silly gunzTarPerm extractEntry app/templates/js/_controllers.js
+127 silly gunzTarPerm extractEntry app/templates/js/_directives.js
+128 silly gunzTarPerm extractEntry app/templates/js/_filters.js
+129 silly gunzTarPerm extractEntry app/templates/js/_services.js
+130 silly gunzTarPerm extractEntry app/templates/less/_bootstrap.less
+131 silly gunzTarPerm extractEntry test/test-creation.js
+132 silly gunzTarPerm extractEntry test/test-load.js
+133 silly lockFile 7f85f1e3-lar-bootstrap-less-1-0-0-package tar:///Users/georgezhao/.npm/generator-angular-bootstrap-less/1.0.0/package
+134 silly lockFile 7f85f1e3-lar-bootstrap-less-1-0-0-package tar:///Users/georgezhao/.npm/generator-angular-bootstrap-less/1.0.0/package
+135 silly lockFile 98ec68b1-bootstrap-less-1-0-0-package-tgz tar:///Users/georgezhao/.npm/generator-angular-bootstrap-less/1.0.0/package.tgz
+136 silly lockFile 98ec68b1-bootstrap-less-1-0-0-package-tgz tar:///Users/georgezhao/.npm/generator-angular-bootstrap-less/1.0.0/package.tgz
+137 verbose chmod /Users/georgezhao/.npm/generator-angular-bootstrap-less/1.0.0/package.tgz 644
+138 verbose chown /Users/georgezhao/.npm/generator-angular-bootstrap-less/1.0.0/package.tgz [ 502, 20 ]
+139 silly lockFile ea3217dc-angular-bootstrap-less-1-0-0-tgz https://registry.npmjs.org/generator-angular-bootstrap-less/-/generator-angular-bootstrap-less-1.0.0.tgz
+140 silly lockFile ea3217dc-angular-bootstrap-less-1-0-0-tgz https://registry.npmjs.org/generator-angular-bootstrap-less/-/generator-angular-bootstrap-less-1.0.0.tgz
+141 silly lockFile 0b962a30-tor-angular-bootstrap-less-1-0-0 generator-angular-bootstrap-less@1.0.0
+142 silly lockFile 0b962a30-tor-angular-bootstrap-less-1-0-0 generator-angular-bootstrap-less@1.0.0
+143 silly lockFile 472369c6-generator-angular-bootstrap-less generator-angular-bootstrap-less@
+144 silly lockFile 472369c6-generator-angular-bootstrap-less generator-angular-bootstrap-less@
+145 silly resolved [ { name: 'generator-angular-bootstrap-less',
+145 silly resolved     version: '1.0.0',
+145 silly resolved     description: 'Yeoman generator for applications using AngularJS, Bootstrap and LESS',
+145 silly resolved     keywords: [ 'yeoman-generator' ],
+145 silly resolved     homepage: 'https://github.com/paptamas/generator-angular-bootstrap-less',
+145 silly resolved     bugs: { url: 'https://github.com/paptamas/generator-angular-bootstrap-less/issues' },
+145 silly resolved     author: { name: 'Pap Tamás', url: 'https://github.com/paptamas' },
+145 silly resolved     main: 'app/index.js',
+145 silly resolved     repository:
+145 silly resolved      { type: 'git',
+145 silly resolved        url: 'git://github.com/paptamas/generator-angular-bootstrap-less.git' },
+145 silly resolved     scripts: { test: 'mocha' },
+145 silly resolved     dependencies: { 'yeoman-generator': '~0.13.0' },
+145 silly resolved     devDependencies: { mocha: '~1.12.0' },
+145 silly resolved     peerDependencies: { yo: '>=1.0.0' },
+145 silly resolved     engines: { node: '>=0.8.0', npm: '>=1.2.10' },
+145 silly resolved     licenses: [ [Object] ],
+145 silly resolved     readme: '# generator-angular-bootstrap-less [![Build Status](https://secure.travis-ci.org/paptamas/generator-angular-bootstrap-less.png?branch=master)](https://travis-ci.org/paptamas/generator-angular-bootstrap-less)\r\n\r\nA generator for [Yeoman](http://yeoman.io).\r\n\r\n\r\n## Getting Started\r\n\r\n### What is Yeoman?\r\n\r\nTrick question. It\'s not a thing. It\'s this guy:\r\n\r\n![](http://i.imgur.com/JHaAlBJ.png)\r\n\r\nBasically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.\r\n\r\nNot every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*\r\n\r\n```\r\n$ npm install -g yo\r\n```\r\n\r\n### Yeoman Generators\r\n\r\nYeoman travels light. He didn\'t pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.\r\n\r\nTo install generator-angular-bootstrap-less from npm, run:\r\n\r\n```\r\n$ npm install -g generator-angular-bootstrap-less\r\n```\r\n\r\nFinally, initiate the generator:\r\n\r\n```\r\n$ yo angular-bootstrap-less\r\n```\r\n\r\n### Getting To Know Yeoman\r\n\r\nYeoman has a heart of gold. He\'s a person with feelings and opinions, but he\'s very easy to work with. If you think he\'s too opinionated, he can be easily convinced.\r\n\r\nIf you\'d like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).\r\n\r\n\r\n## License\r\n\r\n[MIT License](http://en.wikipedia.org/wiki/MIT_License)\r\n',
+145 silly resolved     readmeFilename: 'README.md',
+145 silly resolved     _id: 'generator-angular-bootstrap-less@1.0.0',
+145 silly resolved     dist: { shasum: '0c5ad3c9caf69334b1147d3781c347fba39dea9f' },
+145 silly resolved     _from: 'generator-angular-bootstrap-less@',
+145 silly resolved     _resolved: 'https://registry.npmjs.org/generator-angular-bootstrap-less/-/generator-angular-bootstrap-less-1.0.0.tgz' } ]
+146 info install generator-angular-bootstrap-less@1.0.0 into /usr/local/lib
+147 info installOne generator-angular-bootstrap-less@1.0.0
+148 info /usr/local/lib/node_modules/generator-angular-bootstrap-less unbuild
+149 verbose tar unpack /Users/georgezhao/.npm/generator-angular-bootstrap-less/1.0.0/package.tgz
+150 silly lockFile a0730b5b-generator-angular-bootstrap-less tar:///usr/local/lib/node_modules/generator-angular-bootstrap-less
+151 verbose lock tar:///usr/local/lib/node_modules/generator-angular-bootstrap-less /Users/georgezhao/.npm/a0730b5b-generator-angular-bootstrap-less.lock
+152 silly lockFile 98ec68b1-bootstrap-less-1-0-0-package-tgz tar:///Users/georgezhao/.npm/generator-angular-bootstrap-less/1.0.0/package.tgz
+153 verbose lock tar:///Users/georgezhao/.npm/generator-angular-bootstrap-less/1.0.0/package.tgz /Users/georgezhao/.npm/98ec68b1-bootstrap-less-1-0-0-package-tgz.lock
+154 silly gunzTarPerm modes [ '755', '644' ]
+155 error Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-angular-bootstrap-less'
+155 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-angular-bootstrap-less']
+155 error   errno: 3,
+155 error   code: 'EACCES',
+155 error   path: '/usr/local/lib/node_modules/generator-angular-bootstrap-less',
+155 error   fstream_type: 'Directory',
+155 error   fstream_path: '/usr/local/lib/node_modules/generator-angular-bootstrap-less',
+155 error   fstream_class: 'DirWriter',
+155 error   fstream_stack:
+155 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+155 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+155 error      'Object.oncomplete (fs.js:107:15)' ] }
+156 error Please try running this command again as root/Administrator.
+157 error System Darwin 13.2.0
+158 error command "node" "/usr/local/bin/npm" "install" "-g" "generator-angular-bootstrap-less"
+159 error cwd /Applications/WebService/Git/js/yeoapp
+160 error node -v v0.10.26
+161 error npm -v 1.4.3
+162 error path /usr/local/lib/node_modules/generator-angular-bootstrap-less
+163 error fstream_path /usr/local/lib/node_modules/generator-angular-bootstrap-less
+164 error fstream_type Directory
+165 error fstream_class DirWriter
+166 error code EACCES
+167 error errno 3
+168 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-angular-bootstrap-less'
+169 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+169 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+169 error fstream_stack Object.oncomplete (fs.js:107:15)
+170 verbose exit [ 3, true ]

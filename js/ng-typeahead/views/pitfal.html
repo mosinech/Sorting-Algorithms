@@ -12,33 +12,33 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js" ></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js" ></script>
 	<script src="//code.jquery.com/qunit/qunit-1.14.0.js"></script>
-	<script src="dist/keycount.min.js"></script>
+	<script src="ng-typeahead.js"></script>
+	
 
 	</head>
 
-	<body class="container-fluid" ng-app="keyCountApp" ng-controller="keyCountCtrl">
+	<body class="container-fluid" ng-app="typeaheadApp" ng-controller="typeaheadCtrl">
+		<script type="text/ng-template" id="tpl1.html">
+		    <input ng-model="name">
+		</script>
+		<script type="text/ng-template" id="tpl2.html">
+		    <input ng-model="ext.name">
+		</script>
 		<div class="col-lg-offset-2 col-lg-8 col-md-offset-1 col-md-10">
-			<h2> QUnit Test </h2>
-			<div id="qunit"></div> 
-			<h2>Key Count</h2>
-			<div ng-if="error">The string is not enclosed with single quote</div>
-			<div class="row">
-				<form class= "col-sm-6" role="form">
-					<div class="form-group">
-						<textarea  class="form-control" rows="5" cols="50" ng-model="input.textarea" style="resize:none;"></textarea>
-					</div>
-					<div class="form-group">
-						<input type="submit" class="form-control btn btn-primary" value="Count Keys" ng-click="countKeys()"/>
-					</div>
-				</form>
-			</div>
-			<div ng-repeat="(key, value) in results">
-				The total for <span ng-bind="key"></span> is <span ng-bind="value"></span>.
-			</div>
-			
+			<form>
+				<div class="form-group">
+					<div ng-include="'tpl1.html'"></div>
+					<div ng-include="'tpl1.html'"></div>
+				</div>
+
+				<div class="form-group">
+					<div ng-include="'tpl2.html'"></div>
+					<div ng-include="'tpl2.html'"></div>
+				</div>
+				<button class="btn btn-default" ng-click="test()">test</button>
+			</form>
 		</div>
+		
 	</body>
 
 </html>
-
-

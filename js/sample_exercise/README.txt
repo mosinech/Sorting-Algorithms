@@ -8,6 +8,7 @@ Start:
 	open up a browser to visit:
 		localhost:5888/keycount
 		localhost:5888/palindrome
+		localhost:5888/navigator
 
 Test Examples:
 	please see file: test.txt for some testing examples
@@ -50,3 +51,10 @@ Palindrome Detection:
 	same left and right element at any point of the string to confirm if it contains
 	a palindrome.
 
+Navigator:
+ This is a project to display a tree of navigator from 
+ a given navagation variable
+
+ The following tree must be displayed in a fashion that
+ the parent and child element relationship is visible 
+ from the html page.

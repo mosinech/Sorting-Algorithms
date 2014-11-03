@@ -29,9 +29,7 @@ app.get("/keycount", function(req, res){
 app.get("/palindrome", function(req, res){
   res.render("Palindrome");
 })
-app.get("/navigator", function(req, res){
-  res.render("Navigator");
-})
+
 // assume "not found" in the error msgs
 // is a 404. this is somewhat silly, but
 // valid, you can do whatever you like, set

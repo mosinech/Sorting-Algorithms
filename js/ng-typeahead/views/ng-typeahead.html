@@ -1,0 +1,27 @@
+<form  ng-app="ng-typeahead">
+
+<div>
+	<input  type="text" 
+			id="search" 
+			class="form-control" 
+			data-ng-model="input.search" 
+	        options="input.search_results"
+	        ng-change="change()" 
+	        ng-focus="input.hide = false"
+	        placeholder="Search"/>
+    <span class="btn btn-default input-group-addon" ng-click="add_site(input.search)">Add Site</span>
+    <span class="btn btn-default input-group-addon" ng-click="batch.show=batch.show? false: true; input.hide=true">Batch Update</span>
+
+ 	<div class="autocomplete-holder">
+        <div data-ng-hide="input.hide" 
+        	 data-ng-repeat="result in input.search_results" 
+        	 class="autocomplete-group" >
+            <div data-ng-bind="result.domain" 
+                 data-ng-click="select(result)" 
+                 class="autocomplete-options">
+            </div>
+        </div>
+    </div>
+</div>
+
+</form>
